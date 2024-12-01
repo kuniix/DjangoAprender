@@ -1,0 +1,40 @@
+# Django
+##############################
+db.sqlite3
+local_settings.py  # ou qualquer outro arquivo de configurações locais
+*.pyc
+__pycache__/
+.DS_Store
+
+# Media e Static files
+##############################
+media/
+static/
+
+# IDEs and tools
+##############################
+.idea/
+.vscode/
+*.iml
+*.suo
+*.tmp
+*.py[co]
+
+# Virtual environments
+##############################
+env/
+venv/
+include/site/python*
+
+# Logs and temporary files
+##############################
+*.log
+*.pid
+*.egg-info
+*.egg
+*.cache
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.npm
+.yarn
