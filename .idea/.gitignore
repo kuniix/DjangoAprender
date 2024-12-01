@@ -1,3 +1,74 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+db.sqlite3
+# Sistema operacional
+#####################
+*.DS_Store             # macOS
+Thumbs.db              # Windows
+*.swp                  # Vim
+*.swo                  # Vim
+*~                     # Arquivos temporários
+
+# Ambientes Virtuais
+#####################
+env/
+venv/
+.venv/
+ENV/
+.VENV/
+__pycache__/
+
+# Configurações e arquivos sensíveis
+####################################
+*.env                  # Arquivos de configuração com variáveis de ambiente
+*.secret               # Qualquer arquivo com dados confidenciais
+settings_local.py      # Configurações locais (se houver)
+
+# Logs e outros arquivos temporários
+#####################################
+*.log
+*.pid
+*.seed
+*.lock
+*.sqlite3              # Arquivo SQLite usado no desenvolvimento
+*.pyc                  # Arquivos Python compilados
+*.pyo                  # Arquivos otimizados do Python
+*.pyd                  # Extensões Python para Windows
+
+# Arquivos gerados pelo Django
+##############################
+db.sqlite3             # Banco de dados SQLite
+staticfiles/           # Arquivos gerados pelo comando collectstatic
+media/                 # Diretório para arquivos de upload
+
+# IDEs e ferramentas
+#####################
+.vscode/               # Configurações do Visual Studio Code
+.idea/                 # Configurações do PyCharm/IntelliJ
+*.iml                  # Arquivos do PyCharm/IntelliJ
+.project               # Arquivo de projetos do Eclipse
+.pydevproject          # Configuração do PyDev
+.spyderproject         # Configuração do Spyder
+.jupyter/              # Configuração do Jupyter Notebook
+
+# Docker e containers
+######################
+*.dockerfile           # Arquivos Dockerfile temporários
+docker-compose.override.yml
+
+# Outros
+########
+node_modules/          # Diretório do Node.js (se usar npm ou yarn)
+coverage/              # Relatórios de cobertura de código
+*.cover                # Arquivos de cobertura
+.cache                 # Cache de ferramentas
+*.bak                  # Arquivos de backup
+*.tmp                  # Arquivos temporários
+.npm/                  # Diretório de cache do npm
+dist/                  # Build gerado por Python ou JavaScript
+build/                 # Diretórios de compilação
+.eggs/                 # Diretórios criados por setuptools
+*.egg-info/            # Informações do pacote Python
+pip-wheel-metadata/    # Metadata de pacotes gerados por pip
+poetry.lock            # Arquivo de lock do Poetry (não recomendado subir)
