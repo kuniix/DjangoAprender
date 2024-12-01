@@ -38,7 +38,7 @@ settings_local.py      # Configurações locais
 *.sqlite3              # Base de dados SQLite (uso local)
 
 # Arquivos gerados pelo Django
-################################
+###############################
 staticfiles/           # Arquivos estáticos coletados
 media/                 # Diretório de uploads locais
 cache/                 # Diretório de cache (ex: redis, memcached)
@@ -69,4 +69,5 @@ build/                 # Diretórios de compilação
 .cache                 # Cache de ferramentas
 *.bak                  # Arquivos de backup
 *.tmp                  # Arquivos temporários
-poetry.lock            # Arquivo de lock do Poetry
+poetry.lock            # Arquivo de lock do Poetr
+media
