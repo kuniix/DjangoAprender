@@ -3,7 +3,10 @@ from django.shortcuts import render
 
 # Create your views here.
 def cars_view(request):
-    return HttpResponse("A view da pagina cars")
+   
+    return render(request,
+                  'cars.html',
+                  {'cars': {'model': 'Skyline R34'}})
 
 def cars_value(request):
     return HttpResponse("Os carros mais valiosos.")
